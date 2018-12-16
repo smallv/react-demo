@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import './menuList.less'
 import {Menu} from 'antd';
 import {Link}from 'react-router-dom'
 import { withRouter } from 'react-router'
