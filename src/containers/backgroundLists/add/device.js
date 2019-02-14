@@ -1,7 +1,7 @@
 import React from 'react'
 // import './backgroundIndex.less'
 import {
-    Form, Input, Row, Col, Button,
+    Form, Input, Button,
   } from 'antd';
   
   class DeviceForm extends React.Component {
@@ -85,7 +85,7 @@ import {
             {...formItemLayout}
             label="设备名称"
           >
-            {getFieldDecorator('deviceId', {
+            {getFieldDecorator('deviceName', {
               rules: [{
                 required: true, message: '请输入设备名称',
               }],
